@@ -1,0 +1,35 @@
+$sizes: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50;
+
+@each $size in $sizes {
+    .m-#{$size} {
+        margin: #{$size}px;
+    }
+    .mt-#{$size} {
+        margin-top: #{$size}px;
+    }
+    .mb-#{$size} {
+        margin-bottom: #{$size}px;
+    }
+    .ml-#{$size} {
+        margin-left: #{$size}px;
+    }
+    .mr-#{$size} {
+        margin-right: #{$size}px;
+    }
+    .p-#{$size} {
+        padding: #{$size}px;
+    }
+    .pt-#{$size} {
+        padding-top: #{$size}px;
+    }
+    .pb-#{$size} {
+        padding-bottom: #{$size}px;
+    }
+    .pl-#{$size} {
+        padding-left: #{$size}px;
+    }
+    .pr-#{$size} {
+        padding-right: #{$size}px;
+    }
+}
+

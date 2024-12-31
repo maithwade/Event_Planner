@@ -1,0 +1,14 @@
+{
+  "name": "assignment-6-maithwade25",
+  "version": "1.0.0",
+  "description": "CSS",
+  "main": "index.js",
+  "scripts": {
+    "sass": "npx sass --watch scss/main.scss dist/main.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.80.3"
+  }
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Event Planner</title>
+        <link rel="stylesheet" href="dist/main.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Event Planner</h1>
+            <button id="create-event-btn">Create New Event</button>
+            <div class="event-list" id="event-list"></div>
+        </div>
+
+        <div id="event-modal" class="modal hidden">
+            <div class="modal-content">
+                <span id="close-modal" class="close">&times;</span>
+                <form id="event-form">
+                    <label for="event-name">Event Name</label>
+                    <input type="text" id="event-name" placeholder="Event Name" required />
+                    <label for="event-date">Event Date</label>
+                    <input type="date" id="event-date" required />
+                    <label for="event-time">Event Time</label>
+                    <input type="time" id="event-time" />
+                    <label for="event-location">Event Location</label>
+                    <input type="text" id="event-location" placeholder="Location" required />
+                    <label for="event-description">Description</label>
+                    <textarea id="event-description" placeholder="Description" required></textarea>
+                    <button type="submit" id="save-event-btn">Create Event</button>
+                </form>
+            </div>
+        </div>
+        <script src="js/app.js"></script>
+    </body>
+</html>

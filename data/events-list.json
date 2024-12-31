@@ -1,0 +1,20 @@
+[
+    {
+      "name": "Conference",
+      "description": "A conference on web development and design, featuring speakers from various tech companies.",
+      "date": "2024-11-20",
+      "location": "Boston",
+      "creationDate": "2024-10-17",
+      "creationTime": "10:00",
+      "state": "upcoming"
+    },
+    {
+      "name": "Workshop",
+      "description": "A hands-on workshop on advanced JavaScript concepts and front-end frameworks for begineers.",
+      "date": "2024-12-01",
+      "location": "New York",
+      "creationDate": "2024-10-17",
+      "creationTime": "16:00",
+      "state": "completed"
+    }
+  ]

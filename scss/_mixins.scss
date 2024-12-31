@@ -1,0 +1,21 @@
+// Mixins
+@mixin flex-center($direction: row, $justify: center, $align: center) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+  }
+  
+  @mixin button-style($bg-color, $hover-color) {
+    background-color: $bg-color;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    &:hover {
+      background-color: $hover-color;
+      box-shadow: $box-shadow;
+    }
+  }
