@@ -16,3 +16,10 @@ Event Planner is a web application designed to help users create, manage, and or
 - SCSS: Styling the web app, including modals and buttons.
 - JavaScript: Core logic for creating, managing, and displaying events.
 - Git: Version control system for managing project development.
+
+## Main Page
+![1](https://github.com/user-attachments/assets/f9181f80-8be6-430a-acbd-e45529131f92)
+
+## Event Adding Form
+![2](https://github.com/user-attachments/assets/c5d27c20-43bc-45d2-838e-dc2d204eb655)
+
